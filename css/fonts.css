@@ -1,0 +1,16 @@
+/* Custom Site Fonts Please!!! */
+
+@font-face {
+    font-family: "TASA Orbiter Display Bold";
+    src: url('/css/fonts/TASA Orbiter/TASAOrbiterDisplay-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter Light";
+    src: url('/css/fonts/Inter/Inter-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
