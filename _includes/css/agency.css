@@ -283,10 +283,20 @@ header {
 
 header img {
     display: flex;
-    min-width: 480px;
+    width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+header img {
+    margin: auto 0;
+    min-width: 480px;
+    align-items: center;
+    justify-content: center;
+    }
 }
 
 ul.newsoc-icons li a {
