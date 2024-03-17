@@ -366,7 +366,7 @@ header .intro-text .intro-heading {
         padding-bottom: 75px;
     }
 
-    header .intro-text img {
+    .intro-text img {
         margin: auto 0;
         align-items: center;
         justify-content: center;
