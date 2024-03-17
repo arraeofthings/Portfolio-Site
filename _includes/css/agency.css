@@ -367,7 +367,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text img {
-        margin: auto;
+        margin: auto 0;
         max-width: 480px;
         align-items: center;
     }
