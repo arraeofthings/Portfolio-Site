@@ -368,8 +368,8 @@ header .intro-text .intro-heading {
 
     header .intro-text img {
         margin: auto 0;
-        max-width: 480px;
         align-items: center;
+        justify-content: center;
     }
 }
 
