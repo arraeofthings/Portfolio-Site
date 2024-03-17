@@ -293,7 +293,7 @@ header img {
 
 header img {
     margin: auto 0;
-    min-width: 480px;
+    max-width: 500px;
     align-items: center;
     justify-content: center;
     }
