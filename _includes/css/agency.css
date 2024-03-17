@@ -365,6 +365,12 @@ header .intro-text .intro-heading {
         padding-top: 125px;
         padding-bottom: 75px;
     }
+
+    header .intro-text img {
+        margin: auto;
+        max-width: 480px;
+        align-items: center;
+    }
 }
 
 section {
