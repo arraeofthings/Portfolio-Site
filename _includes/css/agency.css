@@ -297,6 +297,10 @@ header img {
     align-items: center;
     justify-content: center;
     }
+
+header {
+        padding-top: 60px;
+    }
 }
 
 ul.newsoc-icons li a {
