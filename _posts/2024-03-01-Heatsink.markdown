@@ -2,13 +2,13 @@
 title: Heatsink
 subtitle: 2024
 layout: default
-modal-id: 2
+modal-id: 10
 date: 2024-02-24
-img: A3_blank-hrz.png
-thumbnail: A3_blank-thumbnail.png
-alt: Heatsink Painting
+img: 10Heatsink_2K.png
+thumbnail: 10Heatsink_THUMB.png
+alt: Heatsink, Mixed media
 project-date: 2024
-category: Untitled
-description: Acrylic and ink on French paper. 19x25"
+category: Sketches (2023-Present)
+description: Acrylic and ink on paper. 19x25"
 
 ---

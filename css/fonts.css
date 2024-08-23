@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: "TASA Orbiter Display Regular";
+    src: url('/css/fonts/TASA Orbiter/TASAOrbiterDisplay-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Inter Light";
     src: url('/css/fonts/Inter/Inter-Light.woff') format('woff');
     font-weight: normal;

@@ -1,0 +1,14 @@
+---
+title: An Implosive Means
+subtitle: Crux and the Arbiter, 2024.
+layout: default
+modal-id: 1
+date: 2024-01-14
+img: 01ANIMME_2K.png
+thumbnail: 01ANIMME_THUMB.png
+alt: An Implosive Means, Mixed media
+project-date: 2024
+category: Crux and the Arbiter
+description: Acrylic, ink, and newsprint on paper. 19x25"
+
+---

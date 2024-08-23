@@ -1,0 +1,14 @@
+---
+title: If Spokes Were This Wild
+subtitle: Tea on the Rocks With New Glass, 2024.
+layout: default
+modal-id: 5
+date: 2024-08-08
+img: 06IfSpokes_2K.png
+thumbnail: 06IfSpokes_THUMB.png
+alt: If Spokes Were This Wild, Painting on paper
+project-date: 2024
+category: Tea on the Rocks With New Glass
+description: Acrylic and wax pencil on paper. 19x25"
+
+---

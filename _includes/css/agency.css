@@ -125,15 +125,15 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
-    border-color: #0E0E0E;
+    padding: 20px 60px;
+    border-color: #2e2e2e;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
-    background-color: #2e2e2e;
+    background-color: #111111;
 }
 
 .btn-xl:hover,
@@ -141,7 +141,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #0E0E0E;
+    border-color: #2e2e2e;
     color: #fff;
     background-color: #0E0E0E;
 }
@@ -185,6 +185,12 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Inter", sans-serif;
     font-weight: 350;
     color: #2e2e2e;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 0.15px;
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -283,7 +289,7 @@ header {
 
 header img {
     display: flex;
-    width: 100%;
+    width: auto;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -296,10 +302,6 @@ header img {
     max-width: 500px;
     align-items: center;
     justify-content: center;
-    }
-
-header {
-        padding-top: 60px;
     }
 }
 
@@ -326,63 +328,76 @@ ul.newsoc-icons li a:active {
 
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    font-size: 8vw;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 25px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+header .intro-lead-in {
+    margin: 62px auto;
     font-family: "Inter Light", sans-serif;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 65px;
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: "Inter", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
+header .intro-heading {
+    margin-bottom: 50px;
+    font-family: "TASA Orbiter Display Regular", sans-serif;
+    font-size: 240px;
+    font-weight: 400;
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+span {
+	display: inline-block;
+	vertical-align: top;
+}
 
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+.spin {
+    display: inline-block; 
+    animation: spin 2s infinite linear;
+    position: absolute;
+    font-variant: all-small-caps;
+    font-size: 14vw;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Inter Light", sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+    100% {
+        transform: rotate(360deg);
     }
+}
 
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: "Inter", sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+@media only screen and (max-width: 768px) {
+    
+    header .intro-lead-in {
+        font-size: 7vw;
     }
 }
 
 @media only screen and (max-width: 600px) {
     
     header .intro-text {
-        padding-top: 125px;
-        padding-bottom: 75px;
+        padding-top: 225px;
+        padding-bottom: 110px;
     }
 
-    .intro-text img {
-        margin: auto 0;
-        align-items: center;
-        justify-content: center;
+    header .intro-lead-in {
+        font-size: 5vw;
+    }
+    
+    header .intro-heading {
+        font-size: 21vw;
+        margin-bottom: -55px;
+    }
+
+    .spin {
+        font-size: 23vw;
     }
 }
 
@@ -417,6 +432,49 @@ section h3.section-subheading {
     color: #eee;
 }
 
+#about {
+    background-color: #111111; /* Fallback when no plugin support */
+    padding: 75px auto 50px auto;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto 20px;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+
+#about p {
+    margin: 0 25px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #about img {
+        max-width: 89vw;
+        }
+    
+     #about p {
+        padding: 0 25px;
+        text-align: justify;
+        }
+    }
+
+
+@media only screen and (max-width: 600px) {
+
+#about img {
+    max-width: 83vw;
+    }
+
+ #about p {
+    padding: 0 25px;
+    text-align: justify;
+     }
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -437,12 +495,12 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #2e2e2e; /* Fallback when no plugin support */
+    background: #111111; 
     
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    opacity: 0.85;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -525,6 +583,7 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/IMG_5697.png');
     background-position: center;
     background-repeat: no-repeat;
+    padding: 75px auto;
 }
 
 section#contact .section-heading {
@@ -653,21 +712,6 @@ ul.social-buttons li a:active {
     color: #eee;
 }
 
-.modalFullImage img {
-    display: flex;
-    min-width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    padding: auto -205px;
-}
-
-@media only screen and (max-width: 600px) {
-    
-
-}
-
-
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 2.5em;
@@ -690,8 +734,21 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+.portfolio-modal .modal-body {
+    text-align: center;
+}
+
+.portfolio-modal .modal-body img {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto 20px; /* Center the image horizontally and add some bottom margin */
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .portfolio-modal .modal-body img {
+        max-width: 83vw;
+    }
 }
 
 .portfolio-modal .close-modal {

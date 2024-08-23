@@ -1,0 +1,14 @@
+---
+title: Haven From an Obtuse Angle
+subtitle: Tea on the Rocks With New Glass, 2024.
+layout: default
+modal-id: 7
+date: 2024-08-22
+img: 07HFAOA_2K.png
+thumbnail: 07HFAOA_THUMB.png
+alt: Haven From an Obtuse Angle, Painting on paper
+project-date: 2024
+category: Tea on the Rocks With New Glass
+description: Acrylic on paper. 19x25"
+
+---

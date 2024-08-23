@@ -1,0 +1,14 @@
+---
+title: Delay
+subtitle: 2014
+layout: default
+modal-id: 2
+date: 2014-03-27
+img: 04Delay.png
+thumbnail: 04Delay_THUMB.png
+alt: Delay, Installation
+project-date: 2014
+category: Installation Views (2014-Present)
+description: Newsprint, wire, and elastic string. Variable. Personal installation displayed at <a href="https://www.annettelawrence.net/"><u>Annette Lawrence's</u></a> opening tour event for her <i>Leaning Towards an Algorithm</i> exhibition.
+
+---
