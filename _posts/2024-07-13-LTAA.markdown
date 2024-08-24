@@ -4,8 +4,8 @@ subtitle: 2014
 layout: default
 modal-id: 3
 date: 2014-03-24
-img: LTAA Installation_2014B.png
-thumbnail: LTAA Installation_THUMB.png
+img: LTAA_Installation_2014B.png
+thumbnail: LTAA_Installation_THUMB.png
 alt: Leaning Towards an Algorithm Exhibition, Art Installation
 project-date: 2014
 category: Installation Views (2014-Present)
